@@ -18,17 +18,17 @@ int _atoi(char *s)
 	{
 	if (s[c] == 45)
 	{
-		min *= -1;
+	min *= -1;
 	}
 	while (s[c] >= 48 && s[c] <= 52)
 	{
-		isi = 1;
-		ni = (ni * 10) + (s[c] - '0');
-		c++;
+	isi = 1;
+	ni = (ni * 10) + (s[c] - '0');
+	c++;
 	}
 	if (isi == 1)
 	{
-		break;
+	break;
 	}
 	c++;
 	}
