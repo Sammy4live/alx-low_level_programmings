@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -19,7 +20,7 @@ if (argc > 1)
 {
 	for (i = 1; i <= (argc - 1); i++)
 	{
-		sum = sum + atoi(argv[i]);
+	sum = sum + atoi(argv[i]);
 
 	}
 	printf("%d\n", sum);
@@ -29,5 +30,4 @@ if (argc == 1)
 	printf("0\n");
 
 return (0);
-
 }
